@@ -1,0 +1,39 @@
+---
+title: "Untitled"
+author: "Mark Armstrong"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document: 
+    code_folding: hide
+    toc: yes
+    toc_depth: 4
+    toc_float: yes
+    fig_caption: yes
+    fig_width: 8
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+					  warning = FALSE, 
+					  message = FALSE,
+					  fig.align = "center")
+```
+
+
+```{r Setup_Libraries}
+library(tidyverse)
+library(readxl)
+library(pander)
+```
+
+```{r get_Schedule}
+
+readxl::read_excel("WeeklyMeetings.xlsx", col_types = c("date","text","text","text","text","text","text","text")) %>%
+  rename(" " = "space") %>%
+  replace_na(list(Who = " ",Group = " ", 'Group A' = " ", 'Group B' = " ", 'Group C' = " ", ' ' = "|")) %>%
+  pander(caption = "Weekly Schedule of Meetings for the Bioinformatics Hub", split.table = Inf)
+  
+
+```
+
