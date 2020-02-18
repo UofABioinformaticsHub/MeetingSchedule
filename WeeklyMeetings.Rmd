@@ -29,11 +29,12 @@ library(pander)
 
 ```{r get_Schedule}
 
-readxl::read_excel("WeeklyMeetings.xlsx", col_types = c("date","text","text","text","text","text","text","text")) %>%
-  rename(" " = "space") %>%
-  replace_na(list(Who = " ",Group = " ", 'Group A' = " ", 'Group B' = " ", 'Group C' = " ", ' ' = "|")) %>%
+wkly_sched <- read_csv("WeeklyMeetings.csv", col_types = cols(Date=col_date())) %>%
+  rename(" " = "X5") %>%
+  replace_na(list(Who = " ",Group = " ", 'Group A' = " ", 'Group B' = " ", 'Group C' = " ", ' ' = "|")) 
+
+wkly_sched %>%
   pander(caption = "Weekly Schedule of Meetings for the Bioinformatics Hub", split.table = Inf)
-  
 
 ```
 
