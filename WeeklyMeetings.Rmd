@@ -28,17 +28,16 @@ library(pander)
 ```
 
 ```{r get_Schedule}
-
 cp <- paste(
-    "Weekly Schedule of Meetings for the Bioinformatics Hub",
-    "Meetings are held the The Braggs 3.13/3.14 from 2:00pm to 3:30pm"
+    "Weekly Schedule of Meetings for the Bioinformatics Hub. Meetings are held the The Braggs 3.13/3.14 from 2:00pm to 3:30pm"
     )
 
-readxl::read_excel("WeeklyMeetings.xlsx", col_types = c("date","text","text","text","text","text","text","text")) %>%
-  rename(" " = "space") %>%
-  replace_na(list(Who = " ",Group = " ", 'Group A' = " ", 'Group B' = " ", 'Group C' = " ", ' ' = "|")) %>%
-  pander(caption = cp, split.table = Inf)
-  
+wkly_sched <- read_csv("WeeklyMeetings.csv", col_types = cols(Date=col_date())) %>%
+  rename(" " = "X5") %>%
+  replace_na(list(Who = " ",Group = " ", 'Group A' = " ", 'Group B' = " ", 'Group C' = " ", ' ' = "|")) 
+
+wkly_sched %>%
+  pander(caption = cp, style="multiline", split.table = Inf)
 
 ```
 
