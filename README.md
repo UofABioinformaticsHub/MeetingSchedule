@@ -66,8 +66,8 @@
 </tr>
 <tr class="odd">
 <td align="center">2020-03-05</td>
-<td align="center">Journal Club</td>
-<td align="center">Mark</td>
+<td align="center">PHD Seminar</td>
+<td align="center">Jacqui</td>
 <td align="center"></td>
 <td>|</td>
 <td align="center">Qianhui</td>
