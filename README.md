@@ -1,7 +1,6 @@
 # MeetingSchedule
 <table>
-<caption>Weekly Schedule of Meetings for the Bioinformatics Hub</caption>
-<caption>Meetings Held in The Braggs Room 313/314 on Thursday's at 2pm (unless otherwise notified)</caption>
+<caption>Weekly Schedule of Meetings for the Bioinformatics Hub. Meetings are held the The Braggs 3.13/3.14 from 2:00pm to 3:30pm</caption>
 <colgroup>
 <col width="13%"></col>
 <col width="23%"></col>

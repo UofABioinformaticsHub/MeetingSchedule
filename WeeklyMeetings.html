@@ -1590,14 +1590,18 @@ div.tocify {
 <pre class="r"><code>library(tidyverse)
 library(readxl)
 library(pander)</code></pre>
-<pre class="r"><code>wkly_sched &lt;- read_csv(&quot;WeeklyMeetings.csv&quot;, col_types = cols(Date=col_date())) %&gt;%
+<pre class="r"><code>cp &lt;- paste(
+    &quot;Weekly Schedule of Meetings for the Bioinformatics Hub. Meetings are held the The Braggs 3.13/3.14 from 2:00pm to 3:30pm&quot;
+    )
+
+wkly_sched &lt;- read_csv(&quot;WeeklyMeetings.csv&quot;, col_types = cols(Date=col_date())) %&gt;%
   rename(&quot; &quot; = &quot;X5&quot;) %&gt;%
   replace_na(list(Who = &quot; &quot;,Group = &quot; &quot;, 'Group A' = &quot; &quot;, 'Group B' = &quot; &quot;, 'Group C' = &quot; &quot;, ' ' = &quot;|&quot;)) 
 
 wkly_sched %&gt;%
-  pander(caption = &quot;Weekly Schedule of Meetings for the Bioinformatics Hub&quot;, split.table = Inf)</code></pre>
+  pander(caption = cp, style=&quot;multiline&quot;, split.table = Inf)</code></pre>
 <table>
-<caption>Weekly Schedule of Meetings for the Bioinformatics Hub</caption>
+<caption>Weekly Schedule of Meetings for the Bioinformatics Hub. Meetings are held the The Braggs 3.13/3.14 from 2:00pm to 3:30pm</caption>
 <colgroup>
 <col width="13%"></col>
 <col width="23%"></col>
