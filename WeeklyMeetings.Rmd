@@ -29,7 +29,7 @@ library(pander)
 
 ```{r get_Schedule}
 cp <- paste(
-    "Weekly Schedule of Meetings for the Bioinformatics Hub. Meetings are held the The Braggs 3.13/3.14 from 2:00pm to 3:30pm"
+    "Weekly Schedule of Meetings for the Bioinformatics Hub. Meetings are held the The Braggs 3.13/3.14 from 2:00pm to 3:30pm, except for the following dates: 26/03 & 09/04 from 4:00pm to 5:30pm and 16/04 from 12:00pm to 1:30pm."
     )
 
 wkly_sched <- read_csv("WeeklyMeetings.csv", col_types = cols(Date=col_date())) %>%
