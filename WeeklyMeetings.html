@@ -1582,7 +1582,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">Meetings Weekly Schedule 2020</h1>
 <h4 class="author">Mark Armstrong</h4>
-<h4 class="date">19 February, 2020</h4>
+<h4 class="date">20 February, 2020</h4>
 
 </div>
 
@@ -1600,14 +1600,14 @@ wkly_sched &lt;- read_csv(&quot;WeeklyMeetings.csv&quot;, col_types = cols(Date=
 groups &lt;- read_csv(&quot;WeeklyMeetings.csv&quot;) %&gt;%
   dplyr::select(&quot;Group A&quot;,&quot;Group B&quot;,&quot;Group C&quot;)
 
-grp_members &lt;- list(&quot;Group A&quot; = (na.omit(groups$&quot;Group A&quot;)), &quot;Group B&quot; = (na.omit(groups$&quot;Group B&quot;)), &quot;Group C&quot; =(na.omit(groups$&quot;Group A&quot;)))
+grp_members &lt;- list(&quot;Group A&quot; = (na.omit(groups$&quot;Group A&quot;)), &quot;Group B&quot; = (na.omit(groups$&quot;Group B&quot;)), &quot;Group C&quot; =(na.omit(groups$&quot;Group C&quot;)))
 
 grp_members %&gt;%
   pander::pander()</code></pre>
 <ul>
 <li><strong>Group A</strong>: <em>Nathan</em>, <em>Rick</em>, <em>Lloyd</em>, <em>Ning</em>, <em>Qianhui</em>, <em>Cynthia</em>, <em>Mark</em>, <em>Rudi</em>, <em>Junwei</em> and <em>Oscar</em></li>
 <li><strong>Group B</strong>: <em>Jimmy</em>, <em>Terry</em>, <em>David</em>, <em>Melanie</em>, <em>Nhi</em>, <em>Amanda</em>, <em>Chris W</em>, <em>Lachlan</em>, <em>Jacqui</em>, <em>Pan</em> and <em>Nader</em></li>
-<li><strong>Group C</strong>: <em>Nathan</em>, <em>Rick</em>, <em>Lloyd</em>, <em>Ning</em>, <em>Qianhui</em>, <em>Cynthia</em>, <em>Mark</em>, <em>Rudi</em>, <em>Junwei</em> and <em>Oscar</em></li>
+<li><strong>Group C</strong>: <em>Steve</em>, <em>Alastair</em>, <em>Dan</em>, <em>Charlotte</em>, <em>Justin</em>, <em>Luan</em>, <em>Urwah</em>, <em>Chelsea</em>, <em>Sabrina</em>, <em>James</em> and <em>Chris S</em></li>
 </ul>
 <!-- end of list -->
 <pre class="r"><code>wkly_sched %&gt;%

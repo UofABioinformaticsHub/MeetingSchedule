@@ -38,7 +38,7 @@ wkly_sched <- read_csv("WeeklyMeetings.csv", col_types = cols(Date=col_date())) 
 groups <- read_csv("WeeklyMeetings.csv") %>%
   dplyr::select("Group A","Group B","Group C")
 
-grp_members <- list("Group A" = (na.omit(groups$"Group A")), "Group B" = (na.omit(groups$"Group B")), "Group C" =(na.omit(groups$"Group A")))
+grp_members <- list("Group A" = (na.omit(groups$"Group A")), "Group B" = (na.omit(groups$"Group B")), "Group C" =(na.omit(groups$"Group C")))
 
 grp_members %>%
   pander::pander()

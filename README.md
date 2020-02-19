@@ -2,7 +2,7 @@
 <ul>
 <li><strong>Group A</strong>: <em>Nathan</em>, <em>Rick</em>, <em>Lloyd</em>, <em>Ning</em>, <em>Qianhui</em>, <em>Cynthia</em>, <em>Mark</em>, <em>Rudi</em>, <em>Junwei</em> and <em>Oscar</em></li>
 <li><strong>Group B</strong>: <em>Jimmy</em>, <em>Terry</em>, <em>David</em>, <em>Melanie</em>, <em>Nhi</em>, <em>Amanda</em>, <em>Chris W</em>, <em>Lachlan</em>, <em>Jacqui</em>, <em>Pan</em> and <em>Nader</em></li>
-<li><strong>Group C</strong>: <em>Nathan</em>, <em>Rick</em>, <em>Lloyd</em>, <em>Ning</em>, <em>Qianhui</em>, <em>Cynthia</em>, <em>Mark</em>, <em>Rudi</em>, <em>Junwei</em> and <em>Oscar</em></li>
+<li><strong>Group C</strong>: <em>Steve</em>, <em>Alastair</em>, <em>Dan</em>, <em>Charlotte</em>, <em>Justin</em>, <em>Luan</em>, <em>Urwah</em>, <em>Chelsea</em>, <em>Sabrina</em>, <em>James</em> and <em>Chris S</em></li>
 </ul>
 <table style="width:89%;">
 <caption>Weekly Schedule of Meetings for the Bioinformatics Hub. Meetings are held the The Braggs 3.13/3.14 from 2:00pm to 3:30pm, except for the following dates: 26/03 &amp; 09/04 from 4:00pm to 5:30pm and 16/04 from 12:00pm to 1:30pm.</caption>
