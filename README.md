@@ -4,12 +4,13 @@
 <li><strong>Group B</strong>: <em>Jimmy</em>, <em>Terry</em>, <em>David</em>, <em>Melanie</em>, <em>Nhi</em>, <em>Amanda</em>, <em>Chris W</em>, <em>Lachlan</em>, <em>Jacqui</em>, <em>Pan</em> and <em>Nader</em></li>
 <li><strong>Group C</strong>: <em>Steve</em>, <em>Alastair</em>, <em>Dan</em>, <em>Charlotte</em>, <em>Justin</em>, <em>Luan</em>, <em>Urwah</em>, <em>Chelsea</em>, <em>Sabrina</em>, <em>James</em> and <em>Chris S</em></li>
 </ul>
-<table style="width:89%;">
+<!-- end of list -->
+<table style="width:88%;">
 <caption>Weekly Schedule of Meetings for the Bioinformatics Hub. Meetings are held the The Braggs 3.13/3.14 from 2:00pm to 3:30pm, except for the following dates: 26/03 &amp; 09/04 from 4:00pm to 5:30pm and 16/04 from 12:00pm to 1:30pm.</caption>
 <colgroup>
 <col width="18%"></col>
 <col width="31%"></col>
-<col width="27%"></col>
+<col width="26%"></col>
 <col width="11%"></col>
 </colgroup>
 <thead>
@@ -42,7 +43,7 @@
 <tr class="even">
 <td align="center">2020-02-27</td>
 <td align="center">Project Presentation</td>
-<td align="center">Jacqui &amp; Thomas</td>
+<td align="center">Thomas</td>
 <td align="center"></td>
 </tr>
 <tr class="odd">
@@ -54,7 +55,7 @@
 <tr class="even">
 <td align="center">2020-03-12</td>
 <td align="center">Project Presentation</td>
-<td align="center">Chelsea &amp; Sabrina</td>
+<td align="center">Chelsea &amp; Lachie</td>
 <td align="center"></td>
 </tr>
 <tr class="odd">
