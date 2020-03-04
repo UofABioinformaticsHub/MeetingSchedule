@@ -1,6 +1,6 @@
 # MeetingSchedule
 <ul>
-<li><strong>Group A</strong>: <em>Nathan</em>, <em>Rick</em>, <em>Lloyd</em>, <em>Ning</em>, <em>Qianhui</em>, <em>Cynthia</em>, <em>Mark</em>, <em>Rudi</em>, <em>Junwei</em> and <em>Oscar</em></li>
+<li><strong>Group A</strong>: <em>Nathan</em>, <em>Rick</em>, <em>Lloyd</em>, <em>Ning</em>, <em>Qianhui</em>, <em>Cynthia</em>, <em>Mark</em>, <em>Rudi</em>, <em>Junwei</em>, <em>Oscar</em> and <em>Callum</em></li>
 <li><strong>Group B</strong>: <em>Jimmy</em>, <em>Terry</em>, <em>David</em>, <em>Melanie</em>, <em>Nhi</em>, <em>Amanda</em>, <em>Chris W</em>, <em>Lachlan</em>, <em>Jacqui</em>, <em>Pan</em> and <em>Nader</em></li>
 <li><strong>Group C</strong>: <em>Steve</em>, <em>Alastair</em>, <em>Dan</em>, <em>Charlotte</em>, <em>Justin</em>, <em>Luan</em>, <em>Urwah</em>, <em>Chelsea</em>, <em>Sabrina</em>, <em>James</em> and <em>Chris S</em></li>
 </ul>
@@ -79,7 +79,7 @@
 <tr class="even">
 <td align="center">2020-04-09</td>
 <td align="center">Project Presentation</td>
-<td align="center">Justin &amp; Rick</td>
+<td align="center">Justin &amp; Callum</td>
 <td align="center"></td>
 </tr>
 <tr class="odd">
@@ -151,20 +151,20 @@
 <tr class="even">
 <td align="center">2020-07-02</td>
 <td align="center">Journal Club</td>
-<td align="center"></td>
+<td align="center">Ning</td>
 <td align="center"></td>
 </tr>
 <tr class="odd">
 <td align="center">2020-07-09</td>
 <td align="center">Project Presentation</td>
-<td align="center"></td>
+<td align="center">Rick &amp; Sabrina</td>
 <td align="center"></td>
 </tr>
 <tr class="even">
 <td align="center">2020-07-16</td>
 <td align="center">Tool Club</td>
 <td align="center"></td>
-<td align="center"></td>
+<td align="center">C</td>
 </tr>
 <tr class="odd">
 <td align="center">2020-07-23</td>
