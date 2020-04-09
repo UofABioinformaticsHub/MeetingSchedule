@@ -79,7 +79,7 @@
 <tr class="even">
 <td align="center">2020-04-09</td>
 <td align="center">Project Presentation</td>
-<td align="center">Justin &amp; Nathan</td>
+<td align="center">Justin &amp; Chelsea</td>
 <td align="center"></td>
 </tr>
 <tr class="odd">
