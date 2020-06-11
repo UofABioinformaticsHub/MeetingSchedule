@@ -1,11 +1,11 @@
 Meetings Weekly Schedule 2020
 ================
-Last Updated 03 June, 2020
+Last Updated 11 June, 2020
 
   - **Group A**: *Nathan*, *Rick*, *Lloyd*, *Ning*, *Qianhui*,
     *Cynthia*, *Mark*, *Rudi*, *Junwei*, *Oscar* and *Callum*
-  - **Group B**: *Jimmy*, *Terry*, *David*, *Melanie*, *Nhi*, *Amanda*,
-    *Chris W*, *Lachlan*, *Jacqui*, *Pan* and *Nader*
+  - **Group B**: *Jimmy*, *Terry*, *David*, *Melanie*, *Nhi*, *Chris W*,
+    *Lachlan*, *Jacqui*, *Pan* and *Nader*
   - **Group C**: *Steve*, *Alastair*, *Dan*, *Charlotte*, *Justin*,
     *Luan*, *Urwah*, *Chelsea*, *Sabrina* and *James*
 
@@ -33,7 +33,7 @@ Last Updated 03 June, 2020
 | 2020-06-04 |    Project Presentation    |  Urwah & Melanie   |       |
 | 2020-06-11 |         Tool Club          |                    |   B   |
 | 2020-06-18 |    Project Presentation    | Pan Chelsea & Luan |       |
-| 2020-06-25 |    Project Presentation    |        Nhi         |       |
+| 2020-06-25 |     Final Presentation     |  Jacqui & Dave A   |       |
 
 Weekly Schedule of Meetings for the Bioinformatics Hub. Meetings are now
 held using Zoom
